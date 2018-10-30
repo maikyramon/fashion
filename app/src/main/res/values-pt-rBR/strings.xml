@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fashion-Weather</string>
+    <string name="txtSplash">Carregando ...</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSenha">Senha</string>
+    <string name="edtLogin">Login</string>
+    <string name="edtSenha">Senha</string>
+</resources>
