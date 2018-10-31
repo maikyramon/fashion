@@ -16,7 +16,7 @@ repositories {
 
 apply plugin: 'com.android.application'
 
-def AAVersion = '4.4.0'
+def AAVersion = '4.5.2'
 dependencies {
     annotationProcessor "org.androidannotations:androidannotations:$AAVersion"
     implementation "org.androidannotations:androidannotations-api:$AAVersion"
@@ -25,7 +25,7 @@ dependencies {
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "br.edu.unoesc.pdm.offtrail"
+        applicationId "br.edu.unoesc.pdm.fashion"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -47,8 +47,8 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation files('java/br/edu/unoesc/pdm/offtrail/util/ormlite-android-5.1.jar')
-    implementation files('java/br/edu/unoesc/pdm/offtrail/util//ormlite-core-5.1.jar')
+    implementation files('libs/ormlite-android-5.1.jar')
+    implementation files('libs/ormlite-core-5.1.jar')
 }
 
 dependencies {

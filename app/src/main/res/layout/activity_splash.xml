@@ -4,28 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.edu.unoesc.pdm.offtrail.ui.SplashActivity">
-
-    <TextView
-        android:layout_width="194dp"
-        android:layout_height="56dp"
-        android:text="@string/txtSplash"
-        android:textColor="@android:color/holo_green_dark"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.592"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.932"
-        tools:textSize="36sp" />
+    tools:context="br.edu.unoesc.pdm.fashion.ui.SplashActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="338dp"
+        android:layout_width="379dp"
         android:layout_height="394dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         android:src="@drawable/img_256"
-        tools:layout_editor_absoluteX="22dp"
-        tools:layout_editor_absoluteY="19dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="32dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 </android.support.constraint.ConstraintLayout>

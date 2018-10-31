@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">OffTrail</string>
+    <string name="app_name">Fashion</string>
     <string name="txtSplash">Loading ...</string>
     <string name="title_activity_principal">PrincipalActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
